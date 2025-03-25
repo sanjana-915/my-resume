@@ -1,0 +1,221 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>my resume</title>
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+        background-color: whitesmoke;
+      }
+      .main_box {
+        max-width: 80%;
+        margin: auto;
+        background-color: white;
+        padding-left: 10px;
+        padding-right: 10px;
+      }
+      .information {
+        display: flex;
+        justify-content: space-between;
+      }
+      .ph_num{
+        display: flex;
+        justify-content: space-between;
+      }
+
+      /* .border-1 {
+        border: 2px solid red;
+      }
+
+      .border-2 {
+        border: 1px solid blue;
+      }
+      
+      .border-3 {
+        border: 1px solid rebeccapurple;
+      }
+      
+      .border-4 {
+        border: 1px solid green;
+      }
+      
+      .border-5 {
+        border: 1px solid purple;
+      } */
+      .my_img {
+        width: 200px;
+        height: 200px;
+        padding:10px 0px 10px 0px;
+        /* padding: top right bottom left; */
+      }
+      @media (max-width: 400px) {
+        .my_img {
+          width: 150px;
+          height: 150px;
+          padding-top: 0px;
+        }
+      }
+      @media (max-width: 500px){
+        .main_box {
+          max-width: 100%;
+        }
+      }
+      @media (max-width:375) {
+        .projects{
+          margin-right:10px ;
+        }
+      }
+
+      p a {
+        text-decoration: none;
+        
+      }
+      span {
+        font-weight: bold;
+      }
+      ul{
+        list-style-type: square;
+      }
+
+    </style>
+  </head>
+  <body>
+    <main class="main_box">
+      <section class="my_details">
+        <div class="information">
+          <div class="border-1">
+            <h1>sanjana v</h1>
+            <p>Banglore,India</p>
+            <div class="ph_num">
+                di
+                <div><a href="tel:7795571230" target="_blank">7795571230</a></p></div>
+            </div>
+            <p>
+              <a href="mailto:sanjanavaddi915@gmail.com" target="_blank"
+                >sanjanavaddi915@gmail.com</a
+              >
+            </p>
+            <p><a href="https://www.linkedin.com/in/sanjanavaddi/" target="_blank">LinkedIn</a></p>
+          </div>
+          <div class="border-2">
+            <img class="my_img" src="./assets/SANJANA.jpg" alt="my-image" />
+          </div>
+        </div>
+      </section>
+      <hr />
+      <br />
+      <section class="objective">
+        <h1 align="center">Python Full-Stack Developer with AI</h1>
+
+        <h2>Objective</h2>
+        <p>
+          Motivated and detail-oriented
+          <strong>Python Full-Stack Developer</strong> with a passion for building
+          <strong>dynamic web applications</strong> using
+          <strong>
+            HTML, CSS, JavaScript, Python, Django, and AI-driven solutions</strong>. Eager to apply my skills in
+          <strong> full-stack development and artificial intelligence </strong> to
+          create innovative, scalable, and user-friendly applications.
+        </p>
+      </section>
+      <hr />
+        <br />
+      <section class="Technical skills">
+        <h2>Technical Skills</h2>
+        <p>
+          <div> <strong>Frontend Development:</strong> HTML, CSS, JavaScript, Tailwind, MUI</div>
+          <div><strong> Backend Development:
+          </strong> Python, Django</div>
+          <div> <strong>Frameworks & Libraries: 
+          </strong> Django Rest Framework (DRF), jQuery</div>
+          <div><strong>Database Management: </strong>MySQL, NoSQL</div>
+          <div><strong>Artificial Intelligence: 
+          </strong>Python-based AI/ML libraries (NumPy, Pandas, Scikit-learn, TensorFlow)</div>
+          <div><strong>Tools & Technologies: 
+          </strong>Git, GitHub, VS Code, Postman, Docker</div>
+          <div><strong>Other Tools: 
+          </strong>Jupyter Notebook, Google Colab</div>
+        </p>
+      </section>
+      <hr>
+      <br>
+      <section  class="projects border-3" >
+        <h2>Projects</h2>
+        <ol type="1"><h3><li> AI-Powered Chatbot</li></h3>
+        <ul >
+          <li> Built a <strong> Django-based chatbot</strong> integrated with <strong>Natural Language Processing (NLP).</strong>
+          </li>
+          <li>Utilized <strong> Python (NLTK, TensorFlow)</strong> to enhance conversational capabilities.
+          </li>
+          <li> Deployed the chatbot on a <strong>Django web app </strong> for real-time user interaction.
+          </li>
+        </ul>
+        <br>
+        <h3><li>E-Commerce Website with Django</li></h3>
+        <ul>
+          <li>Developed a <strong>full-stack e-commerce website </strong>with user authentication, product management, and cart
+            functionality.</li>
+            <li>Implemented <strong> Django Rest Framework (DRF)</strong> for API-based interactions.
+            </li>
+            <li>  Used  <strong>JavaScript</strong> for a dynamic UI and enhanced user experience.</li>
+        </ul>
+        <br>
+        <h3><li>AI-Powered Resume Analyzer</li></h3>
+        <ul>
+          <li> Created an <strong>AI-driven resume</strong> screening tool using <strong>Python and Machine Learning.</strong></li>
+          <li> Implemented <strong> Natural Language Processing (NLP)</strong> to extract key insights from resumes.</li>
+          <li>Integrated with a <strong> Django-based web interface </strong>for HR professionals to analyze candidates.
+          </li>
+        </ul>
+        <br>
+        <h3><li>Historial App</li></h3>
+        <ul>
+          <li>Built a <strong> full-stack e-commerce platform </strong>using <strong> Django </strong> as the backend framework.</li>
+          <li>Integrated <strong> Django Rest Framework (DRF)</strong> to develop robust and scalable RESTful APIs.
+          </li>
+          <li> Enhanced the frontend with <strong>JavaScript</strong> to deliver a dynamic and seamless user experience.
+          </li>
+        </ul>
+        </ol>
+        </section>
+        <hr>
+        <br>
+       <section class="Education">
+        <h2>Education</h2>
+        <p><strong>Bachelor of Technology (B.Tech) in Information Science & Engineering</strong><br>Guru Nanak Dev Engineering College, Bidar, Karnataka</p>
+        <p><strong>Pre-University Course (PUC)
+        </strong><br>Guru Nanak PU College, Bidar, Karnataka</p>
+        <p><strong> School</strong><br>Guru Nanak Public School, Bidar, Karnataka</p>
+       </section>
+       <hr>
+       <br>
+       <section class="certificate">
+        <h2>Certifications</h2>
+        <p><strong>Python for Web Development with Django</strong><br> Issued by Gyaanova</p>
+        <p><strong>Machine Learning with Python</strong><br>Issued by Great Learning</p>
+       </section>
+       <hr>
+       <br>
+       <section class="personal_details">
+        <h2>Personal Details</h2>
+        <p><strong>Date of Birth:</strong> 20 May 2003 <br>
+          <strong>Gender:</strong>Female <br>
+          <strong>Nationality:</strong> Indian <br>
+           <strong>Hobbies & Interests:</strong> Coding, Designing, Politics, and Leadership
+          </p>
+       </section>
+       <hr>
+       <br>
+       <section class="decleration">
+        <h2>Declaration</h2>
+        <p>I hereby declare that the information provided above is true to the best of my knowledge</p>
+        <p><strong>Current Place:</strong> Bangalore <br>
+           <strong>Signature:</strong> (Sanjana)</p>
+       </section>
+    </main>
+  </body>
+</html>
