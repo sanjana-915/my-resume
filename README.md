@@ -34,6 +34,8 @@ resume-project/
 │       ├── telephone.png
 │       ├── mail.png
 │       └── social.png
+├── src/
+│   ├── style.css
 ```
 
 ## 🛠️ Technologies Used
